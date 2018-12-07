@@ -97,3 +97,20 @@ img{
     justify-content: space-around;
     padding: 1px;
 }
+.learnMore{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 1px;
+    text-decoration-line:none;
+      
+}
+.learnMore a{
+    text-decoration-line:none;
+    border:1px solid #f05050;
+    padding:10px;
+    background-color:rgba(230, 132, 132, 0.1);
+}
+.learnMore a:hover{
+    background-color:#f05050;
+}
