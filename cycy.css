@@ -86,6 +86,14 @@ img{
 .orderedList{
     display:flex;
     flex-direction:row;
-    justify-content: center;
-    padding: 20px;
+    justify-content: space-around;
+    padding: 1px;
+    font-size:24px;
+    color:skyblue;
+}
+.explOfProjects{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 1px;
 }
