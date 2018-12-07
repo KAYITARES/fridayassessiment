@@ -14,10 +14,12 @@ nav {
     margin: 0 auto;
     padding: 10px 0;
     margin-right: 0%;
+    
 }
 
 nav>ul {
     text-align: right;
+   
 }
 
 nav>ul>li {
@@ -31,6 +33,7 @@ nav ul li a {
     text-decoration: none;
     display: block;
     color: rgba(255, 255, 255, 0.733);
+    
 }
 
 nav>ul>li>a:hover {
@@ -42,6 +45,7 @@ nav>ul>li>a:hover {
 #banner{
   padding-bottom :1.5%;
   background-color:rgba(3, 3, 3, 0.1);
+ 
   
 }
 #banner>a:{
@@ -91,11 +95,17 @@ img{
     font-size:24px;
     color:skyblue;
 }
+#portfolio{
+    
+    background-color: #f8f8f8;
+    padding:100px;
+}
 .explOfProjects{
     display:flex;
     flex-direction:row;
     justify-content: space-around;
     padding: 1px;
+    font-size:18px;
 }
 .learnMore{
     display:flex;
@@ -114,3 +124,39 @@ img{
 .learnMore a:hover{
     background-color:#f05050;
 }
+#contact{
+    background-color:#1a0000;
+    padding:50px;
+    
+}
+.form input {
+    background-color: #000;
+    width:30%;
+    margin-left:650px;
+    padding-bottom: 20px;
+    color:white;
+
+  }
+  textarea{
+    background-color: #000;
+    margin-left:650px;
+    padding:20px; 
+    width:28%; 
+    color:white;
+  }
+  button{
+    margin-left:1000px;
+    padding:20px;
+    border-radius:10px;
+    width:180px;
+  } 
+  h2{
+    text-align:center;
+    color:white;
+    font-size:30px;
+}
+.paragraphcontact{
+    text-align:center;
+    color:skyblue;
+}
+   
