@@ -2,7 +2,8 @@
 #### a personnel website that show my professionel work, published on, Friday,7th,12,2018
 #### By **KAYITARE Cynthia**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+my application is a portofolio website, its purpose is to publish my professionel work.my application is able to show what i am doing the link of the project i was created and is hosted using github withthe command line for the push purpose.my website is hosted with 0price.
+
 ## Setup/Installation Requirements
 * Open computer or Smart phone 
 * connect to internet
@@ -19,5 +20,5 @@ email:cyntkayitare@gmail.com
 phone:(+250)785627690
 instagram:cyntkayitare
 ### License
-*All right reserved by kayitare cynthia*
+*All right reserved by kayitare*
 Copyright (c) 2018 **KAYITARE CYNTHIA**
