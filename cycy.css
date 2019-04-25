@@ -68,7 +68,7 @@ h1{
     text-align:center;
     padding:50px;
 }
-img{
+#im{
     height:300PX;
     border-radius:50%;    
 }
@@ -94,7 +94,7 @@ img{
 #portfolio{
     
     background-color: #f8f8f8;
-    padding:100px;
+   
 }
 .explOfProjects{
     display:flex;
@@ -156,3 +156,6 @@ img{
     color:skyblue;
 }
    
+.btn btn-info{
+    border-radius:5%;
+}
