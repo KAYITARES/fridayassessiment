@@ -66,7 +66,8 @@ span{
 /* the about css style*/
 h1{
     text-align:center;
-    padding:50px;
+    padding:2%;
+    color:maroon;
 }
 #im{
     height:300PX;
@@ -158,4 +159,16 @@ h1{
    
 .btn btn-info{
     border-radius:5%;
+}
+#loading {
+    -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
 }
