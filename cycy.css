@@ -93,7 +93,7 @@ h1{
 }
 #portfolio{
     
-    background-color: #f8f8f8;
+    background-color:bisque;
    
 }
 .explOfProjects{
@@ -160,7 +160,7 @@ h1{
     border-radius:5%;
 }
 #loading {
-    -webkit-animation: rotation 5s infinite linear;
+    -webkit-animation: rotation 10s infinite linear;
 }
 
 @-webkit-keyframes rotation {
@@ -177,9 +177,9 @@ h1{
     font-family: 'Amita';font-size: 44px; 
         color: magenta;
         -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
         animation-name: example;
-        animation-duration: 4s;
+        animation-duration: 5s;
       }
       
       /* Safari 4.0 - 8.0 */
@@ -251,4 +251,10 @@ padding:2%;
   }
   #portfolio{
       background-color: beige;
+  }
+  h3{
+      text-decoration:none;
+  }
+  .po{
+    font-family: 'Adamina';font-size: 16px;
   }
