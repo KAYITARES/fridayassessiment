@@ -13,6 +13,7 @@ nav {
     max-width: 960px;
     margin: 0 auto;
     padding: 10px 0;
+    font-family: 'Amita';font-size: 22px;
 
     
 }
@@ -33,12 +34,12 @@ nav ul li a {
 }
 nav>ul>li>a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), insert 0 0 1px rgba(255, 255, 255, 0.6);
-    background: rgba(221, 109, 35, 0.678);
+    background:rgb(8, 235, 223);
     color: rgba(0, 35, 122, 0.7);
 }
 #banner{
   padding-bottom :1.5%;
-  background-color:rgba(3, 3, 3, 0.1); 
+  background-color:rgba(231, 68, 204, 0.1); 
 }
 #banner>a:{
  border : 2px solid white;
@@ -93,7 +94,7 @@ h1{
 }
 #portfolio{
     
-    background-color:bisque;
+    background-color:rgb(235, 188, 131);
    
 }
 .explOfProjects{
@@ -122,8 +123,8 @@ h1{
 }
 /* the contact css style*/
 #contact{
-    background-color:#1a0000;
-    padding:50px;
+    background-color:rgb(167, 167, 167);
+    padding:10px;
     
 }
 .form input {
@@ -161,6 +162,8 @@ h1{
 }
 #loading {
     -webkit-animation: rotation 10s infinite linear;
+    border-radius:50%;
+   
 }
 
 @-webkit-keyframes rotation {
@@ -177,7 +180,7 @@ h1{
     font-family: 'Amita';font-size: 44px; 
         color: magenta;
         -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-        -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+        -webkit-animation: 5s infinite linear; /* Safari 4.0 - 8.0 */
         animation-name: example;
         animation-duration: 5s;
       }
@@ -186,16 +189,16 @@ h1{
       @-webkit-keyframes example {
         0%   {color: cyan;}
         25%  {color: rgb(213, 248, 12);}
-        50%  {color:maroon;}
-        100% {color: green;}
+        50%  {color:magenta;}
+        100% {color: rgb(250, 4, 66);}
       }
       
       /* Standard syntax */
       @keyframes example {
         0%   {color: cyan;}
         25%  {color: rgb(213, 248, 12);}
-        50%  {color:maroon;}
-        100% {color: green;}
+        50%  {color:magenta;}
+        100% {color: rgb(253, 7, 40);}
       }
 #abt{
     font-family: 'Charm';font-size: 32px;
@@ -242,6 +245,7 @@ h1{
     opacity: 1;
   }
   a:hover{
+    text-decoration:none
    
   }
   .ooh{
@@ -258,3 +262,24 @@ padding:2%;
   .po{
     font-family: 'Adamina';font-size: 16px;
   }
+  .cont{
+    font-family: 'Parisienne', cursive;font-size:18px; 
+  }
+  .conta{
+    font-family: 'Parisienne', cursive;font-size:22px;
+    font-family: 'Rancho', cursive;
+  }
+  .pu{
+      font-size:26px;
+  }
+  body {
+    background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Barlow', sans-serif;
+  }
+
+  
+ 
